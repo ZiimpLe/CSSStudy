@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    color: white;
+}
+body{
+    background-color: #eff0f4;
+}
+#title_bar{
+    text-align: center;
+    background: #5fc0cd;
+}
+#signIn{
+    font-size: 1em;
+    line-height: 3.5em;
+}
+#close,#login{
+    font-size: 0.9em;
+    line-height:  3.9em;
+}
+#close{
+    float: left;
+    margin-left: 1em;
+}
+#login{
+    float: right;
+    margin-right: 1em;
+}
+#user_info div{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    position: relative;
+}
+img{
+    padding-left: 1.5em;
+}
+input::-webkit-input-placeholder{
+    color: #bababa;
+}
+input{
+    font-size: 1em;
+    position: absolute;
+    top:1.7em;
+    left:7em;
+    border: none;
+    outline: none;
+}
+button{
+    font-size: 1em;
+    color: white;
+    border:none;
+    background: #5fc0cd;
+    width: 100%;
+    line-height: 3.5em;
+}
+a{
+    font-size: 1em;
+    text-decoration: none;
+    float: right;
+    color: #5fc0cd;
+    margin: 0.5em 1em 0 0;
+}
+a:visited{
+    color: #5fc0cd;
+}
