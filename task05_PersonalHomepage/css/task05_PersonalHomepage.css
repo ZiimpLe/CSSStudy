@@ -51,14 +51,14 @@ header h3{
 
 
 footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    padding: 1em 0;
-}
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     padding: 1em 0;
+     display: flex;
+ }
 button{
-    width: 50%;
+    flex: 1;
     margin: 0 1em;
     background-color: white;
     font-size: 1em;
