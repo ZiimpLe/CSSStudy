@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 3em;
+    background-color: #5fc0cd;
+    position: relative;
+}
+#header_back{
+    position: absolute;
+    width: 0.75em;
+    top: 1.125em;
+    left: 1.125em;
+}
+header h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 3em;
+    text-align: center;
+}
+#intro{
+    position: relative;
+    height: 160px;
+    background: url("../images/intro_bg.jpg") no-repeat;
+    background-size: cover;
+}
+#portrait{
+    width: 80px;
+    padding: 40px 20px;
+}
+#info{
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}
+#info span{
+    color: white;
+    line-height: 2em;
+}
+#info img{
+    width: 12px;
+}
+#address{
+    font-size: 0.8em;
+}
+
+
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 1em 0;
+}
+button{
+    width: 50%;
+    margin: 0 1em;
+    background-color: white;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 3em;
+    border: solid 2px #5fc0cd;
+    border-radius: 5px;
+}
+#btn_message{
+    color: #5fc0cd;
+    margin-right: 1em;
+}
+#btn_contact{
+    color: white;
+    background-color: #5fc0cd;
+    margin-left: 0;
+}
