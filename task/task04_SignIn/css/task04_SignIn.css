@@ -57,6 +57,7 @@ button{
     background: #5fc0cd;
     width: 100%;
     line-height: 3.5em;
+    outline: none;
 }
 a{
     font-size: 1em;
