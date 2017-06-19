@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: url("../images/bg.jpg") no-repeat;
+}
+header > img{
+    display: block;
+    height: 3.5rem;
+    margin: 1em 0.5em 0.5em;
+}
+header #nav{
+    height: 3rem;
+    background-color: #9f8958;
+}
+#nav li{
+    float: left;
+    line-height: 3rem;
+    list-style: none;
+    margin-left: 3rem;
+}
+#nav a:hover{
+    color: #c7c7c7;
+}
+
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    height: 5rem;
+}
+footer p{
+    color: white;
+    line-height: 5rem;
+    text-align: center;
+}
+footer a{
+    color: #c2b182;
+}
+footer a:hover{
+    color: #7d6330;
+}
