@@ -3,24 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Lesson_01 操作HTML元素</title>
-        <script>
-
-            var sayHello = "hello \"java\"";
-            alert(sayHello.length);
-            for(var i = 0; i < sayHello.length; i++){
-                alert(sayHello[i]);
-            }
-
-        </script>
+        <link rel="stylesheet" href="lesson_01.css">
+        <script src="lesson_01.js"></script>
     </head>
 
     <body>
-
-        <form action="submitpage.htm" onsubmit="return validate_form(this)" method="post">
-            Email:
-            <input type="text" name="email" size="30">
-            <input type="submit" value="Submit">
-        </form>
-
+        <button type="button" id="btn">Click me</button>
+        <p id="p">Visit w3cschool</p>
     </body>
 </html>
